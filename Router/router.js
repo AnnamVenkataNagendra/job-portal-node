@@ -2,7 +2,7 @@
 import express from 'express'
 import {register} from '../Servicelayer/auth.js';
 import { userlogin } from '../Servicelayer/auth.js';
-import { verifyToken } from '../Middleware/authmiddleware.js';
+import { verifyToken } from '../Middleware/authMiddleware.js';
 const router=express.Router();
 
 // post request
