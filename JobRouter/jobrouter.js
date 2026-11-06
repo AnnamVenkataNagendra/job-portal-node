@@ -1,7 +1,7 @@
 import express from 'express'
 
 import { jobPost } from "../JobController/createJobs.js";
-import { verifyToken } from "../Middleware/authmiddleware.js";
+import { verifyToken } from '../Middleware/authMiddleware.js';
 import { deleteId, getAllJobs, jobSearch, updateJob } from '../JobController/getJobs.js';
 import { getApplicantsForMyJobs } from '../JobController/updatejob.js';
 import { updateApplicationStatus } from '../JobController/statusjob.js';

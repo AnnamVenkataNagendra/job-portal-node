@@ -1,6 +1,6 @@
 
 import express from 'express'
-import { verifyToken } from '../Middleware/authmiddleware.js';
+import { verifyToken } from '../Middleware/authMiddleware.js';
 import { appliedJobs } from '../Applications/applicationController.js';
 import { fetchApplication } from '../Applications/getapplication.js';
 
